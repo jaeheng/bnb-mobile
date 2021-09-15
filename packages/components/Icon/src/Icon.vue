@@ -1,5 +1,5 @@
 <template>
-  <i class="iconfont" :class="extraClass"></i>
+  <i class="bnb-icon iconfont" :class="extraClass"></i>
 </template>
 
 <script>

@@ -4,7 +4,15 @@
  */
 export const componentsList = [
   {
-    path: 'alert',
+    path: '/button',
+    name: 'button',
+    component: () => import('../views/Button/index.vue'),
+    meta: {
+      title: 'Button'
+    }
+  },
+  {
+    path: '/alert',
     name: 'alert',
     component: () => import('../views/Alert/index.vue'),
     meta: {
@@ -12,7 +20,7 @@ export const componentsList = [
     }
   },
   {
-    path: 'grid',
+    path: '/grid',
     name: 'grid',
     component: () => import('../views/Grid/index.vue'),
     meta: {
@@ -20,7 +28,7 @@ export const componentsList = [
     }
   },
   {
-    path: 'icon',
+    path: '/icon',
     name: 'icon',
     component: () => import('../views/Icon/index.vue'),
     meta: {
@@ -28,7 +36,7 @@ export const componentsList = [
     }
   },
   {
-    path: 'cell',
+    path: '/cell',
     name: 'cell',
     component: () => import('../views/Cell/index.vue'),
     meta: {

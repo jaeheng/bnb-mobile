@@ -3,7 +3,7 @@
     <div class="header">
       <img src="/logo.svg" alt="logo" class="logo">
       <h2>Bnb-Mobile</h2>
-      <p>优秀的移动端UI组件库</p>
+      <p>优秀的Vue3移动端UI组件库</p>
     </div>
 
     <bnb-cell style="margin-top: 15px;" card>

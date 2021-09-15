@@ -1,6 +1,10 @@
+@import "variable.scss";
 h3.page-title {
   color: #aaa;
   font-size: 13px;
   padding: 10px;
   margin: 0;
+}
+.panel {
+  padding: $padding;
 }
