@@ -44,16 +44,16 @@
   border-color: transparent;
 }
 .bnb-button__primary {
-  background: #1853ec;
-  border-color: #1853ec;
+  background: $primary;
+  border-color: $primary;
 }
 .bnb-button__success {
-  background: #0db014;
-  border-color: #0db014;
+  background: $success;
+  border-color: $success;
 }
 .bnb-button__danger {
-  background: #ea3b3b;
-  border-color: #ea3b3b;
+  background: $danger;
+  border-color: $danger;
 }
 .bnb-button__default {
   background: #fff;
@@ -70,13 +70,13 @@
   background: transparent;
   color: inherit;
   &.bnb-button__primary {
-    color: #1853ec;
+    color: $primary;
   }
   &.bnb-button__success {
-    color: #0db014;
+    color: $success;
   }
   &.bnb-button__danger {
-    color: #ea3b3b;
+    color: $danger;
   }
 }
 .bnb-button__block {
