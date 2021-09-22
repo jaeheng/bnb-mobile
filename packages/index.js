@@ -4,6 +4,9 @@ import Cell from "./components/Cell";
 import CellItem from "./components/CellItem";
 import Button from "./components/Button";
 import Loading from "./components/Loading";
+import Icon from "./components/Icon";
+import Grid from "./components/Grid";
+import GridItem from "./components/GridItem";
 
 const components = [
   Alert,
@@ -11,7 +14,10 @@ const components = [
   Cell,
   CellItem,
   Button,
-  Loading
+  Loading,
+  Icon,
+  Grid,
+  GridItem
 ]
 
 const install = function (Vue) {

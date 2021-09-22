@@ -1,5 +1,5 @@
 <template>
-  <i class="bnb-icon iconfont" :class="extraClass"></i>
+  <i class="bnb-icon iconfont" :class="extraClass" :style="iconStyle"></i>
 </template>
 
 <script>
@@ -10,12 +10,22 @@ export default {
     name: {
       default: '',
       type: String
+    },
+    size: {
+      default: '16px',
+      type: [String, Number]
     }
   },
   computed: {
     extraClass () {
       const name = this.name
       return `icon-${name}`
+    },
+    iconStyle () {
+      const size = parseFloat(String(this.size)) + 'px'
+      return {
+        fontSize: size
+      }
     }
   }
 }
