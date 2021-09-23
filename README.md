@@ -10,7 +10,7 @@
 - [x] Grid 网格
 - [x] Icon 图标
 - [x] Cell 单元格
-- [ ] Layout 布局
+- [x] Layout 布局
 - [ ] Tabs 标签页
 - [ ] NavMenu 导航栏
 

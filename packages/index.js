@@ -7,6 +7,8 @@ import Loading from "./components/Loading";
 import Icon from "./components/Icon";
 import Grid from "./components/Grid";
 import GridItem from "./components/GridItem";
+import Row from "./components/Row";
+import Col from "./components/Col";
 
 const components = [
   Alert,
@@ -17,7 +19,9 @@ const components = [
   Loading,
   Icon,
   Grid,
-  GridItem
+  GridItem,
+  Row,
+  Col
 ]
 
 const install = function (Vue) {

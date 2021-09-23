@@ -42,6 +42,14 @@ export const componentsList = [
     meta: {
       title: 'Cell'
     }
+  },
+  {
+    path: '/layout',
+    name: 'layout',
+    component: () => import('../views/Layout/index.vue'),
+    meta: {
+      title: 'Layout'
+    }
   }
 ]
 export default [
