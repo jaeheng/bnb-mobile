@@ -9,6 +9,7 @@ import Grid from "./components/Grid";
 import GridItem from "./components/GridItem";
 import Row from "./components/Row";
 import Col from "./components/Col";
+import Tabs from "./components/Tabs";
 
 const components = [
   Alert,
@@ -21,7 +22,8 @@ const components = [
   Grid,
   GridItem,
   Row,
-  Col
+  Col,
+  Tabs
 ]
 
 const install = function (Vue) {

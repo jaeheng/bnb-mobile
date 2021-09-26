@@ -6,13 +6,19 @@
       <p>优秀的Vue3移动端UI组件库</p>
     </div>
 
-    <bnb-cell style="margin-top: 15px;" card>
-      <bnb-cell-item
-          v-for="item in componentsList"
-          :key="item.name"
-          :to="item.path"
-      >{{ item.meta.title }}</bnb-cell-item>
-    </bnb-cell>
+    <template
+        v-for="item in componentsList"
+        :key="item.name"
+    >
+      <h3 class="page-title">{{ item.name }}</h3>
+      <bnb-cell card>
+        <bnb-cell-item
+            v-for="route in item.routes"
+            :key="route.name"
+            :to="route.path"
+        >{{ route.meta.title }}</bnb-cell-item>
+      </bnb-cell>
+    </template>
   </div>
 </template>
 
@@ -29,7 +35,7 @@
 }
 .logo {
   display: block;
-  margin: 2em auto;
+  margin: 2em auto 0;
   height: 68px;
 }
 </style>

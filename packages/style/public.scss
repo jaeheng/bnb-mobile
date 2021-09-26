@@ -10,3 +10,9 @@
   border: 0 solid #ebedf0;
   transform: scale(0.5);
 }
+.text--ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+}
